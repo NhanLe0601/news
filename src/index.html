@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tin tuc 24h</title>
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="text/javascript">
+    var number = 9;
+    var i = 0;
+    var s = i;
+    while(i<=number){
+      if(i=0){
+        s=i;
+        document.write(s  + "</br>")
+      } else{
+        s+=i;
+        document.write(s  + "</br>")
+      }
+      i++ ;
+    }
+  </script>
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <!-- LOGO + dates -->
+    <div class="container">
+      <div class="logo-header">
+        <h1>
+          <a href="#">
+            <img src="./images/logo/logo-header.svg" alt="logo">
+          </a>
+        </h1>
+
+        <p class="date-now">Thứ bảy, 09/2/2023</p>
+      </div>
+
+      <!--manu  -->
+      <div class="sub-menu-header">
+        <a href="">
+          <i class="ti-timer"></i> Mới nhất
+        </a>
+        <a href="">
+          <i class="ti-location-pin"></i> Tin theo khu vực
+        </a>
+        <a href="">
+          <i class="ti-linkedin"></i> International
+        </a>
+        <div class="form-search">
+          <input type="text" placeholder="Tìm kiếm">
+          <button class="reset btn-search">
+            <i class="ti-search"></i>
+          </button>
+        </div>
+        <div class="login">
+          <a href="#" class="login">
+            <i class="ti-user"></i> Đăng nhập
+          </a>
+
+          <a href="#" class="bell-info">
+            <i class="ti-bell"></i>
+          </a>
+        </div>
+      </div>
+  </header>
+
+  <nav class="menu-header">
+    <ul class="list-menu">
+      <li><a href="#"> <i class="ti-home"></i></a></li>
+      <li><a href="#" class="menu-item">Chính trị</a></li>
+      <li><a href="#" class="menu-item">Văn hoá</a></li>
+      <li><a href="#" class="menu-item">Xã hội</a></li>
+      <li><a href="#" class="menu-item">Quốc phòng</a></li>
+      <li><a href="#" class="menu-item">Kinh doanh</a></li>
+      <li><a href="#" class="menu-item">Giải trí</a></li>
+      <li><a href="#" class="menu-item">Thể thao</a></li>
+      <li><a href="#" class="menu-item">Sức khoẻ</a></li>
+      <li><a href="#" class="menu-item">Đời sống</a></li>
+      <li><a href="#" class="menu-item">Du lịch</a></li>
+      <li><a href="#" class="menu-item">Xe</a></li>
+      <li><a href="#" class="menu-item">Kinh tế</a></li>
+      <li><a href="#" class="menu-item">Chính trị</a></li>
+      <li><a href="#">Tất cả <i class="ti-menu"></i></a></li>
+    </ul>
+  </nav>
+
+  <!--on news-->
+  <div class="on-news">
+    <div class="container">
+      <div class="on-news-left">
+        <a class="news-main d-flex" href="#">
+          <div class="news-img w-66">
+            <img src="./images/places/place1.jpg" alt="">
+          </div>
+          <div class="inner w-34">
+            <h2 class="hv">Tiểu thương chợ Tam Bạc khóc nghẹn vì hàng hóa cháy rụi</h2>
+            <p>Hàng trăm tiểu thương nỗ lực cứu hàng hóa khi ngọn lửa bùng lên trong chợ đầu mối lớn nhất thành phố Hải Phòng, rồi khóc nghẹn lúc lửa tắt, phần lớn hàng cháy thành tro.</p>
+          </div>
+        </a>
+
+        <div class="news-sub d-flex">
+          <div class="group-news-sub d-flex w-66">
+            <a href="#">
+              <h3 class="hv">Cứu hộ Việt Nam giải cứu thiếu niên mắc kẹt sau động đất Thổ Nhĩ Kỳ</h3>
+              <p>Nhóm cứu hộ đến từ Việt Nam và Pakistan đã tham gia giải cứu thiếu niên mắc kẹt 138 giờ sau động đất ở Thổ Nhĩ Kỳ.</p>
+            </a>
+  
+            <a href="#">
+              <h3 class="hv">Cứu hộ Việt Nam giải cứu thiếu niên mắc kẹt sau động đất Thổ Nhĩ Kỳ</h3>
+              <p>Nhóm cứu hộ đến từ Việt Nam và Pakistan đã tham gia giải cứu thiếu niên mắc kẹt 138 giờ sau động đất ở Thổ Nhĩ Kỳ.</p>
+            </a>
+          </div>
+
+          <a href="#" class="w-34">
+            <h3 class="hv">Ukraine đối mặt cùng lúc hai cuộc chiến</h3>
+            <p>Trong khi dồn sức đối phó với chiến dịch quân sự của Nga, Ukraine còn phải tiến hành cuộc chiến cam go không kém, đối phó nạn tham nhũng trong nước.</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="commercial">
+        <a href="#">
+          <img src="./images/commercial/timthumb.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- sub news -->
+  <div class="container d-flex mt-20 bd-bt pb-20">
+    <div class="w-30 pr-20">
+      <article class="article-news pt-0">
+        <a href="#">
+          <h3 class="tittle-child hv">Ukraine đối mặt cùng lúc hai cuộc chiến</h3>
+          <div class="d-flex">
+            <div class="w-34">
+              <img src="./images/child news/KFQAJIB3DJOXTCU3YCGNZKQS54-167-7727-3371-1675331129 (1).jpg" alt="">
+            </div>
+            <p class="w-66">Trong khi dồn sức đối phó với chiến dịch quân sự của Nga, Ukraine còn phải tiến hành cuộc chiến cam go
+              không kém, đối phó nạn tham nhũng trong nước.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="article-news">
+        <a href="#">
+          <h3 class="tittle-child hv">Ukraine đối mặt cùng lúc hai cuộc chiến</h3>
+          <div class="d-flex">
+            <div class="w-34">
+              <img src="./images/child news/KFQAJIB3DJOXTCU3YCGNZKQS54-167-7727-3371-1675331129 (1).jpg" alt="">
+            </div>
+            <p class="w-66">Trong khi dồn sức đối phó với chiến dịch quân sự của Nga, Ukraine còn phải tiến hành cuộc chiến cam go
+              không kém, đối phó nạn tham nhũng trong nước.</p>
+          </div>
+        </a>
+      </article>
+
+      <article class="article-news">
+        <a href="#">
+          <h3 class="tittle-child hv">Ukraine đối mặt cùng lúc hai cuộc chiến</h3>
+          <div class="d-flex">
+            <div class="w-34">
+              <img src="./images/child news/KFQAJIB3DJOXTCU3YCGNZKQS54-167-7727-3371-1675331129 (1).jpg" alt="">
+            </div>
+            <p class="w-66">Trong khi dồn sức đối phó với chiến dịch quân sự của Nga, Ukraine còn phải tiến hành cuộc chiến cam go
+              không kém, đối phó nạn tham nhũng trong nước.</p>
+          </div>
+        </a>
+      </article>
+    </div>
+
+    <div class="w-70 pl-20 has-border">
+      
+      <div class="nav-news bd-bt pb-20 mb-20">
+        <nav class="menu-child-news">
+          <ul class="d-flex">
+            <li ><a class="hv" href="#">Kinh doanh</a></li>
+            <li ><a class="hv" href="#">Quốc tế</a></li>
+            <li ><a class="hv" href="#">Doanh Nghiệp</a></li>
+            <li ><a class="hv" href="#">Chứng khoán</a></li>
+            <li ><a class="hv" href="#">Bất động sản</a></li>
+            <li ><a class="hv" href="#">Bảo hiển</a></li>
+          </ul>
+        </nav>
+        <div class="content-chil-new d-flex mt-20 bd-bt pb-20">
+          <div class="w-66 d-flex ">
+            <a href="#">
+              <img class="pr-20" src="./images/child news/KFQAJIB3DJOXTCU3YCGNZKQS54-167-7727-3371-1675331129 (1).jpg" alt="">
+            </a> 
+            
+            <a class="mr-20" href="#">
+              <h3 class="hv">Đạt 8.5 IELTS Speaking nhờ phương pháp R-E-E</h3>
+              <p>Nguyễn Thiện Phúc, 27 tuổi, nói nâng được điểm IELTS Speaking (Nói) từ 7.5 lên 8.5 nhờ ôn luyện theo phương pháp R-E-E. </p>
+            </a>
+          </div>
+          <div class="w-34 has-border pl-20 ">
+            <a href="#">
+              <h3 class="hv">Đạt 8.5 IELTS Speaking nhờ phương pháp R-E-E</h3>
+              <p>Nguyễn Thiện Phúc, 27 tuổi, nói nâng được điểm IELTS Speaking (Nói) từ 7.5 lên 8.5 nhờ ôn luyện theo phương pháp R-E-E. </p>
+            </a>
+          </div>
+        </div>
+      
+        <article class="list-tittle-news d-flex pt-20  ">
+          <a href="#" class="tittle-news w-30 style-list">
+            <h3 class="hv">Hãng khí đốt tự nhiên lớn nhất thế giới có thể giảm 50% doanh thu xuất khẩu</h3>
+          </a>
+          <a href="#" class="tittle-news w-30 style-list">
+            <h3 class="hv">Nhà đầu tư nước ngoài đổ tiền trở lại vào chứng khoán Trung Quốc</h3>
+          </a>
+          <a href="#" class="tittle-news w-30 style-list">
+            <h3 class="hv">Vì sao nên đầu tư cổ phiếu dài hạn?</h3>
+          </a>
+        </article>
+      </div>
+      
+      <div class="nav-news bd-bt pb-20 mb-20">
+        <nav class="menu-child-news">
+          <ul class="d-flex">
+            <li ><a class="hv" href="#">Kinh doanh</a></li>
+            <li ><a class="hv" href="#">Quốc tế</a></li>
+            <li ><a class="hv" href="#">Doanh Nghiệp</a></li>
+            <li ><a class="hv" href="#">Chứng khoán</a></li>
+            <li ><a class="hv" href="#">Bất động sản</a></li>
+            <li ><a class="hv" href="#">Bảo hiển</a></li>
+          </ul>
+        </nav>
+        <div class="content-chil-new d-flex mt-20 bd-bt pb-20">
+          <div class="w-66 d-flex ">
+            <a href="#">
+              <img class="pr-20" src="./images/child news/KFQAJIB3DJOXTCU3YCGNZKQS54-167-7727-3371-1675331129 (1).jpg" alt="">
+            </a> 
+            
+            <a class="mr-20" href="#">
+              <h3 class="hv">Đạt 8.5 IELTS Speaking nhờ phương pháp R-E-E</h3>
+              <p>Nguyễn Thiện Phúc, 27 tuổi, nói nâng được điểm IELTS Speaking (Nói) từ 7.5 lên 8.5 nhờ ôn luyện theo phương pháp R-E-E. </p>
+            </a>
+          </div>
+          <div class="w-34 has-border pl-20 ">
+            <a href="#">
+              <h3 class="hv">Đạt 8.5 IELTS Speaking nhờ phương pháp R-E-E</h3>
+              <p>Nguyễn Thiện Phúc, 27 tuổi, nói nâng được điểm IELTS Speaking (Nói) từ 7.5 lên 8.5 nhờ ôn luyện theo phương pháp R-E-E. </p>
+            </a>
+          </div>
+        </div>
+      
+        <article class="list-tittle-news d-flex pt-20  ">
+          <a href="#" class="tittle-news w-30 style-list">
+            <h3 class="hv">Hãng khí đốt tự nhiên lớn nhất thế giới có thể giảm 50% doanh thu xuất khẩu</h3>
+          </a>
+          <a href="#" class="tittle-news w-30 style-list">
+            <h3 class="hv">Nhà đầu tư nước ngoài đổ tiền trở lại vào chứng khoán Trung Quốc</h3>
+          </a>
+          <a href="#" class="tittle-news w-30 style-list">
+            <h3 class="hv">Vì sao nên đầu tư cổ phiếu dài hạn?</h3>
+          </a>
+        </article>
+      </div>
+
+    </div>
+
+    
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="inner">
+        <div class="list-menu-footer">
+          <div class="group-menu">
+            <ul>
+              <li><a href="">Thể Thao</a></li>
+              <li><a href="">Sức Khoẻ</a></li>
+              <li><a href="">Du Lịch</a></li>
+              <li><a href="">Đời Sống</a></li>
+              <li><a href="">Pháp luật</a></li>
+              <li><a href="">Du Lịch</a></li>
+              <li><a href="">Đời Sống</a></li>
+              <li><a href="">Pháp luật</a></li>
+            </ul>
+          </div>
+          <div class="group-menu">
+            <ul>
+              <li><a href="">Thể Thao</a></li>
+              <li><a href="">Sức Khoẻ</a></li>
+              <li><a href="">Du Lịch</a></li>
+              <li><a href="">Đời Sống</a></li>
+              <li><a href="">Pháp luật</a></li>
+            </ul>
+          </div>
+
+          <div class="group-menu">
+            <ul>
+              <li><a href="">Thể Thao</a></li>
+              <li><a href="">Sức Khoẻ</a></li>
+              <li><a href="">Du Lịch</a></li>
+              <li><a href="">Đời Sống</a></li>
+              <li><a href="">Pháp luật</a></li>
+            </ul>
+          </div>
+          <div class="group-menu">
+            <ul>
+              <li><a href="">Thể Thao</a></li>
+              <li><a href="">Sức Khoẻ</a></li>
+              <li><a href="">Du Lịch</a></li>
+              <li><a href="">Đời Sống</a></li>
+              <li><a href="">Pháp luật</a></li>
+            </ul>
+          </div>
+          <div class="group-menu">
+            <ul>
+              <li><a href="">Thể Thao</a></li>
+              <li><a href="">Sức Khoẻ</a></li>
+              <li><a href="">Du Lịch</a></li>
+              <li><a href="">Đời Sống</a></li>
+              <li><a href="">Pháp luật</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="dowload-app">
+            <p class="contact-tittle">Tải ứng dụng</p>
+            <ul>
+              <li>
+                <a>
+                  <i></i>
+                  VnExpress
+                </a>
+              </li>
+              <li>
+                <a>
+                  <i></i>
+                  VnExpress
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="wrap-contact">
+            <p class="contact-tittle">Liên hệ</p>
+            <div class="wrap-contact-item">
+              <a href="#"><i class="ti-email hv"> Toà soạn</i></a>
+              <a href="#"><i class="ti-email hv"> Toà soạn</i></a>
+              <a href="#"><i class="ti-email hv"> Toà soạn</i></a>
+            </div>
+          </div>
+          <div class="list-phone-contact">
+            <p class="contact-tittle">Đường dây nóng</p>
+            <div class="list-phone">
+              <div class="phone-contact">
+                <p class="number-phone">083.888.0123</p>
+                <p class="city-name">(Hà Nội)</p>
+              </div>
+              <div class="phone-contact">
+                <p class="number-phone">082.233.3555</p>
+                <p class="city-name">(TP. Hồ Chí Minh)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <ul class="list-contact-footer">
+        <li>
+          <a href="#"><i class="ti-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ti-android"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ti-youtube"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ti-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ti-pinterest"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ti-twitter-alt"></i></a>
+        </li>
+      </ul>
+      <p class="coppy-right text-center">Powered by <a href="#">w3.css</a> </p> -->
+  </footer>
+</body>
+</html>

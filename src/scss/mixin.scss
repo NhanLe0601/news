@@ -1,0 +1,11 @@
+@mixin d-flex($isCenter, $jc) {
+  display: flex;
+  justify-content: $jc;
+  
+  @if $isCenter == center {
+    align-items: center;
+  } @else if $isCenter == flex-end {
+    align-items: flex-end;
+  }
+
+}
